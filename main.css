@@ -47,7 +47,7 @@ li a{
     font-weight: bold;
     text-decoration: none;
     color: white;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .btn:hover{
@@ -55,8 +55,8 @@ li a{
 }
 
 .signup{
-    padding: 0.5em 1em;
-    border-radius: 1.2em;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
     background-color: orange;
 }
 
@@ -64,35 +64,89 @@ li a{
     background-color:rgb(255, 150, 0) ;
 }
 
+.cover{
+    background-image: linear-gradient(180deg, #77d4e400 30%, #77d4e4b5 90%);
+    padding: 0.8rem 0 3rem;
+}
+
 .cover img{
-    padding-top: 6em;
+    padding-top: 5rem;
     margin: 0 20%;
 }
 
 .cover_text{
     text-align: center;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: bold;
-    line-height: 1.4em;
-    text-shadow: 2px 2px 2px black;
+    line-height: 2rem;
 }
 
 .cover_des{
-    margin-top: 1em;
-    margin-bottom: 3em;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .cover_tp{
-    margin: 0 30%;
+    padding: 0.3rem 0;
+    margin: 0 33%;
     background-image: linear-gradient(90deg, #ff790000, #ff7900 15%, #ff7900 85%, #ff790000);
 }
 
 .countdown{
-    background-color: black;
+    padding: 2.5rem 0;
+    background-color: #321b7b;
+    color: white;
 }
 
-.countdown div{
-    display: block;
-    text-align: center; 
+.countdown > div{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+form div{
+    margin: 0 0.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+input{
+    font-family: "Oswald", sans-serif;
+    width: 80px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    background-color:transparent;
+    border: none;
+    color: white;
+}
+
+.audience{
+    background-color: black;
+    color: white;
+    padding: 48px 13%;
+    justify-content: center;
+}
+
+.audience-text div{
+    padding: 0 20px;
+    width: 100%;
+    height: 100px;
+}
+
+.audience h2{
+    font-size: 2rem;
+}
+
+.audience h3{
+    font-size: 1.5rem;
+    color: blue;
+    margin: 10px 0;
+}
+
+.audience p{
+    font-size: 1rem;
 }

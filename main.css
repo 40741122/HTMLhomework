@@ -23,6 +23,8 @@ header{
     height: 70px;
     width: 100%;
     background-color: rgb(44, 44, 44);
+    position:sticky;
+	top:0;
 }
 
 .header{
@@ -37,13 +39,12 @@ header{
     vertical-align: center;
 }
 
-
-li{
+header li{
     list-style-type: none;
     margin: 10px 15px;
 }
 
-li a{
+header li a{
     font-weight: bold;
     text-decoration: none;
     color: white;
@@ -125,9 +126,9 @@ input{
 }
 
 .audience{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
-    padding: 48px 13%;
+    padding: 48px 13% 66px;
     justify-content: center;
 }
 
@@ -149,4 +150,177 @@ input{
 
 .audience p{
     font-size: 1rem;
+}
+
+.highlight{
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    background-color: rgba(0, 0, 0, 0.203);
+}
+
+.highlight h1{
+    font-size: 2.4rem;
+}
+
+.highlight img{
+    width: 700px;
+    margin-top: 1rem;
+}
+
+.highlight_des{
+    margin-top: 3.75rem;
+}
+
+.highlight span{
+    color: #ff7900;
+}
+
+.agenda{
+    text-align: center;
+    color: white;
+    padding: 3rem 13%;
+}
+
+.agenda h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.agenda table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 20px;
+    width: 50%;
+    background-color: white;
+}
+
+.agenda img{
+    margin: 10px 0;
+    width: 380px;
+}
+
+.table_color_b{
+    background-color: #76d4e4;
+}
+
+.table_color_o{
+    background-color: #ff7900;
+}
+
+.table_color_lb{
+    background-color: #ededed;
+
+}
+
+/* table top border */
+.ttb{
+    border-top: 2px solid purple;
+}
+
+td > ul{
+    padding: 30px 0;
+    padding-left: 40px;
+}
+
+.agenda li{
+    padding: 5px 0 ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+li > ul{
+    padding-left: 40px;
+}
+
+small{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.teacher{
+    color: black;
+    text-align: left;
+}
+
+.teacher img{
+    margin: 30px 0;
+    width: 100px;
+    height: 100px;
+}
+
+.teacher div{
+    margin-left: 20px;
+}
+
+.teacher h3{
+ font-size: 1.5rem;
+ margin-bottom: 0.75rem;
+}
+
+.teacher h5{
+ font-size:  1.25rem;
+}
+
+.infomation{
+    background-color: rgb(49, 186, 232);
+    text-align: center;
+    padding: 3.5rem 13%;
+}
+
+.infomation h2{
+    font-size: 2.5rem;
+}
+
+.infomation .flex{
+    justify-content: space-between;
+}
+
+.inf_tp{
+    text-align: left;
+}
+
+.inf_tp h3{
+    font-size: 1.5rem;
+}
+
+.inf_tp .flex{
+    text-align: center;
+}
+
+.inf_tp a{
+    text-decoration: none;
+    color: white;
+}
+
+.inf_tp span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price_o{
+    background-color: orange;
+}
+
+.price_lb{
+    background-color: lightblue;
+}
+
+.price_b{
+    background-color: blue;
+}
+
+.infomation img{
+    width: 30%;
+}
+
+.inf_des{
+    text-align: left;
 }

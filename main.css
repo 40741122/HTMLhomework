@@ -19,12 +19,37 @@ body{
     background-position: 50% 0;
 }
 
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
 header{
     height: 70px;
     width: 100%;
     background-color: rgb(44, 44, 44);
-    position:sticky;
-	top:0;
+    position: sticky;
+	top: 0;
 }
 
 .header{
@@ -40,14 +65,11 @@ header{
 }
 
 header li{
-    list-style-type: none;
     margin: 10px 15px;
 }
 
 header li a{
     font-weight: bold;
-    text-decoration: none;
-    color: white;
     font-size: 1rem;
 }
 
@@ -138,12 +160,7 @@ input{
     height: 100px;
 }
 
-.audience h2{
-    font-size: 2rem;
-}
-
 .audience h3{
-    font-size: 1.5rem;
     color: blue;
     margin: 10px 0;
 }
@@ -157,10 +174,6 @@ input{
     text-align: center;
     padding: 3rem 0;
     background-color: rgba(0, 0, 0, 0.203);
-}
-
-.highlight h1{
-    font-size: 2.4rem;
 }
 
 .highlight img{
@@ -182,8 +195,7 @@ input{
     padding: 3rem 13%;
 }
 
-.agenda h2{
-    font-size: 2.5rem;
+.agenda h1{
     margin-bottom: 2rem;
 }
 
@@ -215,7 +227,6 @@ td{
 
 .table_color_lb{
     background-color: #ededed;
-
 }
 
 /* table top border */
@@ -228,12 +239,17 @@ td > ul{
     padding-left: 40px;
 }
 
-.agenda li{
+#agenda li{
+    list-style-type: disc;
     padding: 5px 0 ;
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
     text-align: left;
+}
+
+#agenda li li{
+    list-style-type: circle;
 }
 
 li > ul{
@@ -261,22 +277,13 @@ small{
 }
 
 .teacher h3{
- font-size: 1.5rem;
  margin-bottom: 0.75rem;
-}
-
-.teacher h5{
- font-size:  1.25rem;
 }
 
 .infomation{
     background-color: rgb(49, 186, 232);
     text-align: center;
     padding: 3.5rem 13%;
-}
-
-.infomation h2{
-    font-size: 2.5rem;
 }
 
 .infomation .flex{
@@ -286,10 +293,6 @@ small{
 .inf_tp{
     text-align: left;
     line-height: 2.5rem;
-}
-
-.inf_tp h3{
-    font-size: 1.5rem;
 }
 
 .inf_tp .flex{
@@ -311,11 +314,6 @@ small{
 .price_box > div{
     border-radius: 3px;
     padding: 0.5rem 2rem;
-}
-
-.inf_tp a{
-    text-decoration: none;
-    color: white;
 }
 
 .inf_tp span{
@@ -348,7 +346,6 @@ small{
 }
 
 .inf_des a{
-    text-decoration: none;
     color: orangered;
 }
 
@@ -365,6 +362,7 @@ small{
     padding: 3rem 0;
     backdrop-filter: blur(5px);
 }
+
 .ad img{
     width: 75%;
 }
@@ -377,10 +375,6 @@ small{
     backdrop-filter: blur(5px);
 }
 
-.article h2{
-    font-size: 2.5rem;
-}
-
 .article .flex{
     width: 100%;
     max-width: 100%;
@@ -390,7 +384,7 @@ small{
 
 .article_box{
     padding: 0 1.5rem;
-    flex: 1;
+    flex-basis: calc(33.333% - 3rem);
 }
 
 .article img{
@@ -399,13 +393,7 @@ small{
 }
 
 .article a{
-    text-decoration: none;
-    color: white;
     text-align: left;
-}
-
-.article h3{
-    line-height: 2rem;
 }
 
 .question{
@@ -415,24 +403,20 @@ small{
     background-color: rgba(0, 0, 0, 0.203);
 }
 
-.question h2{
+.question h1{
     text-align: center;
-    font-size: 2.5rem;
     padding: 3rem 0;
 }
 
 .question li{
-    list-style-type: none;
     margin-bottom: 2rem;
 }
 
 .question h3{
-    font-size: 1.5rem;
     margin-bottom: .5rem;
 }
 
 .question a{
-    text-decoration: none;
     color: orangered;
 }
 
@@ -464,7 +448,7 @@ footer >a i{
 }
 
 footer ul{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 10px 0;
     font-weight: bold;
     justify-content: center;
@@ -472,12 +456,6 @@ footer ul{
 
 footer li{
     padding: 0 1rem;
-    list-style-type: none;
-}
-
-footer li a{
-    color: white;
-    text-decoration: none;    
 }
 
 footer p{

@@ -50,8 +50,18 @@
         // end hiding  -->
     </script>
     <!-------JavaScript特定日期倒數計時 END-------->
+    <script>
+        function roll_btn(){
+            if(this.scrollY > 700){
+                document.getElementsByClassName("rollup")[0].style.display="block"
+            }else{
+                document.getElementsByClassName("rollup")[0].style.display="none"
+            }
+        }
+
+    </script>
 </head>
-<body onload="clock();return true">
+<body onload="clock();return true" onscroll="roll_btn()">
     <header>
         <div class="header flex">
             <div class="logo">

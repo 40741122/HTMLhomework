@@ -239,7 +239,7 @@ td > ul{
     padding-left: 40px;
 }
 
-#agenda li{
+.agenda li{
     list-style-type: disc;
     padding: 5px 0 ;
     font-size: 1.5rem;
@@ -248,7 +248,7 @@ td > ul{
     text-align: left;
 }
 
-#agenda li li{
+.agenda li li{
     list-style-type: circle;
 }
 
